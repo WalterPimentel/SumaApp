@@ -10,9 +10,9 @@ class PruebaSuma(unittest.TestCase):
 
     def test_suma_operacionSuma_dosNumerosPositivos_retornaSuma(self):
         # Organizar
-        self.sumando1 = 3
-        self.sumando2 = 7
-        self.resultadoesperado = 10
+        self.sumando1 = 19
+        self.sumando2 = 50
+        self.resultadoesperado = 79
 
         # Actuar
         self.resultadoActual = self.suma.operacionSuma(self.sumando1, self.sumando2)
