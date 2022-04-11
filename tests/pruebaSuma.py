@@ -12,7 +12,7 @@ class PruebaSuma(unittest.TestCase):
         # Organizar
         self.sumando1 = 19
         self.sumando2 = 50
-        self.resultadoesperado = 79
+        self.resultadoesperado = 69
 
         # Actuar
         self.resultadoActual = self.suma.operacionSuma(self.sumando1, self.sumando2)
@@ -28,6 +28,18 @@ class PruebaSuma(unittest.TestCase):
 
         # Actuar
         self.resultadoActual = self.suma.operacionSuma(self.sumando1, self.sumando2)
+
+        # Evaluar
+        self.assertEqual(self.resultadoesperado, self.resultadoActual)
+
+    def test_resta_operacionResta_dosNumeros_retornaResta(self):
+        # Organizar
+        self.minuendo = 50
+        self.sustraendo = 30
+        self.resultadoesperado = 20
+
+        # Actuar
+        self.resultadoActual = self.suma.operacionResta(self.minuendo, self.sustraendo)
 
         # Evaluar
         self.assertEqual(self.resultadoesperado, self.resultadoActual)

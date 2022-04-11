@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d21e2fe-2ead-4e30-8b23-faee83eabb0b" name="Changes" comment="" />
+    <list default="true" id="9d21e2fe-2ead-4e30-8b23-faee83eabb0b" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logica/Suma.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/logica/Suma.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/pruebaSuma.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/pruebaSuma.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -95,5 +99,16 @@
       <updated>1649190989847</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
